@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Linkovi -- Pocetak -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Linkovi -- Kraj -->
+    <title>MoviePlex - Kontakt</title>
+  </head>
+  <body>
+    <!-- Navigacija -- Pocetak -->
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="./index.html"
+            ><img src="./assets/img/logo.png" alt="logo" />
+            <p>MoviePlex</p></a
+          >
+        </div>
+        <div class="linkovi">
+          <a href="./index.html">Početna</a>
+          <a href="./galerija.html">Galerija</a>
+          <a href="./projekcije.html">Projekcije</a>
+          <a href="./rezervacija.html">Rezervacije</a>
+          <a class="nav_active" href="./kontakt.html">Kontakt</a>
+        </div>
+        <div class="social">
+          <a href="https://www.facebook.com/stefan.stevanovic.963" target="_blank">FB</a>
+          <a href="https://www.instagram.com/stefan019sa3" target="_blank">IN</a>
+          <a href="https://twitter.com" target="_blank">TW</a>
+        </div>
+        <div class="burger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </nav>
+    </header>
+    <!-- Navigacija -- Kraj -->
+    <main>
+      <!-- Content -- Pocetak -->
+      <div class="naslov pozadina">
+        <h2>Kontaktirajte nas</h2>
+        <p>
+          Napišite vaš predlog, pitanje ili prijavu za posao, a mi ćemo vam
+          odgovoriti u najkraćem mogućem roku!
+        </p>
+        <hr />
+      </div>
+      <section id="kontakt" class="pozadina">
+        <div class="kontakt">
+          <div class="form">
+            <form name="contact" class="contact-form">
+              <input type="text" name="name" placeholder="Ime" />
+              <input type="text" name="lastname" placeholder="Prezime" />
+              <input type="email" name="email" placeholder="E-mail" />
+              <input type="text" name="phone" placeholder="Telefon" />
+              <textarea
+                type="text"
+                name="message"
+                cols="30"
+                rows="4"
+                placeholder="Vaša poruka"
+              ></textarea>
+              <div id="submit" class="btn w-100 mb-15">Pošalji</div>
+              <a href="./kontakt-inbox.html" class="btn w-100"
+                >Pogledaj inbox</a
+              >
+            </form>
+          </div>
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/place/Stadion+Shopping+Center/@44.7738786,20.487486,15z/data=!4m5!3m4!1s0x475a717e06352b9b:0x858fab5de3fa1631!8m2!3d44.7750513!4d20.49032?hl=sr"
+              width="500"
+              height="500"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+        <div class="contact">
+          <div class="contact-item">
+            <img src="./assets/img/phone.svg" alt="telefon" />
+            <div class="title">Telefon</div>
+            <div class="desc"><a href="tel:+38111555333">011/1555-333</a></div>
+          </div>
+          <div class="contact-item">
+            <img src="./assets/img/map.svg" alt="adresa" />
+            <div class="title">Adresa</div>
+            <div class="desc">Stadion Shopping centar, Beograd 11000</div>
+          </div>
+          <div class="contact-item">
+            <img src="./assets/img/envelope.svg" alt="email" />
+            <div class="title">Email</div>
+            <a href="mailto:+38111555333">office@movieplex.rs</a>
+          </div>
+        </div>
+      </section>
+      <!-- Content -- Kraj -->
+    </main>
+    <!-- Footer -- Pocetak -->
+    <footer>
+      <div class="footer">
+        <div class="footer-linkovi">
+          <a href="./kontakt.html">Kontaktirajte nas</a>
+          <a href="./mapa-sajta.html">Mapa sajta</a>
+        </div>
+        <div class="footer-text">
+          <p>
+            <span>2022 MoviePlex,</span>
+            <span>Stadion Shopping centar, Beograd 11000,</span>
+            <span>office@movieplex.rs,</span>
+            <span>011/1555-333</span>
+          </p>
+        </div>
+      </div>
+      <div class="author">
+        <p>All rights reserved</p>
+        <p>Stefan Stevanovic IS-58/20</p>
+      </div>
+    </footer>
+    <!-- Footer -- Kraj -->
+    <!-- Skripte -- Pocetak -->
+    <script src="./assets/js/kontakt.js"></script>
+    <script>
+      Form.initForm();
+    </script>
+    <script src="./assets/js/navigation.js"></script>
+    <!-- Skripte -- Kraj -->
+  </body>
+</html>
